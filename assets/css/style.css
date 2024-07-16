@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main-heading {
+    font-family: "montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.tab-button {
+    padding: 17px 40px;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #F53838;
+    color: #ffffff;
+    border: 1px solid #F53838;
+    transition: 0.3s linear;
+    border-radius: 10px;
+}
+
+.tab-button:hover {
+    background-color: #ffffff;
+    color: #F53838;
+    border: 1px solid #F53838;
+}
+
+.bx-shadow {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.bx-shadow-img {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.head3-font {
+    font-family: "montserrat", sans-serif;
+}
+
+.number-txt {
+    width: 40px;
+    height: 40px;
+    background-color: #F53838;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.link-font {
+    font-family: "montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400
+}
+
+.work-name {
+    font-size: 30px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.date-font {
+    opacity: 50%;
+    font-family: "montserrat", sans-serif;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-button.active {
+    background-color: #ffffff;
+    color: #F53838;
+}
